@@ -1,0 +1,27 @@
+html,
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    @extend %norms-400;
+}
+
+main {
+    flex-grow: 1;
+}
+
+// .container-main{
+//     max-width: 1110px;
+//     padding: 15px 0;
+//     margin: 0 auto;
+// }
+
+
+// .title {
+
+// }
+
